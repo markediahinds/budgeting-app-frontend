@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 0px 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+.navbar_caret {
+    padding-top: 4px;
+}
+
+.nav__new {
+    border: rgb(51, 196, 51) 2px solid;
+    padding: 15px
+}

@@ -1,0 +1,35 @@
+.home-container {
+    background-image: linear-gradient(160deg, #e7f0f5 0%, #d5e2e0 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home__headline {
+    margin: 300px 0 20px 80px;
+    font-size: xxx-large;
+    max-width: 600px;
+}
+
+span {
+    color: rgb(51, 196, 51);
+}
+
+.home__message {
+    margin: 0 0 20px 80px;
+    color: gray;
+    font-weight: 400;
+}
+
+.home__transactions {
+    padding: 15px;
+    border-radius: 2em;
+    background-color: rgb(51, 196, 51);
+    border: none;
+    margin-left: 80px;
+    transition-duration: 0.4s;
+}
+
+.home__transactions:hover {
+    background-color: rgb(161, 209, 161);
+}
+

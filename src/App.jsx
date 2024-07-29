@@ -12,7 +12,7 @@ import Show from './Pages/Show'
 import Edit from './Pages/Edit'
 import Transactions from './Pages/Transactions'
 import Subscriptions from './Pages/Subscriptions'
-import Four0Four from './Components/FourOFour'
+import FourOFour from './Components/FourOFour'
 
 
 function App() {
